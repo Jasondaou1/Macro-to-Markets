@@ -1,0 +1,19 @@
+# Requirements for Macro_to_Markets_Project.ipynb
+# Install with: pip install -r requirements.txt
+#
+# Versions below are the exact versions this notebook was developed and
+# tested against (2026-07-12). Minimum-version bounds (>=) are used rather
+# than exact pins so the notebook remains runnable on slightly newer
+# environments; if you hit compatibility issues, install the exact
+# version shown in the comment.
+
+pandas>=2.2.0          # tested with 3.0.2
+numpy>=1.26.0           # tested with 2.4.4
+matplotlib>=3.8.0       # tested with 3.10.8
+seaborn>=0.13.0          # tested with 0.13.2
+scipy>=1.11.0            # tested with 1.17.1
+
+# Needed to open and run the notebook itself
+jupyter>=1.0.0           # tested with 1.1.1
+nbformat>=5.9.0          # tested with 5.10.4
+nbconvert>=7.14.0        # tested with 7.17.1 -- only needed if re-executing via command line
